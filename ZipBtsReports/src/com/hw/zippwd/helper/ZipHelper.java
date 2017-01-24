@@ -34,7 +34,8 @@ public class ZipHelper {
 		String dd=(cal.get(Calendar.DATE)>9)?(""+cal.get(Calendar.DATE)):("0"+cal.get(Calendar.DATE));
 		String mm=((cal.get(Calendar.MONTH)+1)>9)?(""+(cal.get(Calendar.MONTH)+1)):("0"+(cal.get(Calendar.MONTH)+1));
 		String yyyy=""+cal.get(Calendar.YEAR);
-		return "btsReports-"+yyyy+mm+dd+".zip";
+
+		return "content-"+(cal.get(Calendar.HOUR))+"-"+(cal.get(Calendar.MINUTE))+"-"+(cal.get(Calendar.SECOND))+"-"+yyyy+mm+dd+".zip";
 	}
 	
 	public String getsourceLocation(){
