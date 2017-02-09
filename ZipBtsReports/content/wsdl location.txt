@@ -1,4 +1,0 @@
-http://localhost/ReportServer/ReportService2005.asmx?wsdl    deprecated
-http://localhost/ReportServer/ReportService2006.asmx?wsdl	 deprecated
-http://localhost/ReportServer/ReportService2010.asmx?wsdl
-http://localhost/ReportServer/ReportExecution2005.asmx?wsdl
