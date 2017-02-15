@@ -7,7 +7,7 @@ import com.gradle.utility.FileCreator;
 
 public class TestFileCrator {
 	public static void main(String[] args) {
-		FileCreator fileCreator1 = new FileCreator();
+		FileCreator fileCreator = new FileCreator();
 		Calendar cal=Calendar.getInstance();
 		//Date d=cal.getTime();
 		System.out.println(cal.getTimeInMillis());
