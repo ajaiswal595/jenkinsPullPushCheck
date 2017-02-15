@@ -8,5 +8,5 @@ dependencies {
 	compile name: 'zip4j_1.3.2'
  }
 sourceSets.main.java.srcDirs = ['src']
-mainClassName = "com.hw.zippwd.Zipper"
+mainClassName = "com.gradle.test.TestFileCreator"
 
